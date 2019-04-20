@@ -2,14 +2,15 @@
   "name": "messenger-server",
   "version": "1.0.0",
   "description": "node-messenger backend",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "server": "node index.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matthew Garrett",
   "license": "MIT",
   "dependencies": {
+    "aws-sdk": "^2.441.0",
     "socket.io": "^2.2.0",
     "uuid": "^3.3.2"
   }
